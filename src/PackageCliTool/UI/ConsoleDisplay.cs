@@ -70,7 +70,7 @@ public static class ConsoleDisplay
   [green]    --connection-string[/] <str> [dim](string)[/] Database connection string
   [green]    --admin-name[/] <name>       [dim](string, default: Administrator)[/] Admin friendly name
   [green]    --admin-email[/] <email>     [dim](string, default: admin@example.com)[/] Admin email
-  [green]    --admin-password[/] <pwd>    [dim](string, default: 1234567890)[/] Admin password (min 10 chars)
+  [green]    --admin-password[/] <pwd>    [dim](string, default: 1234567890!)[/] Admin password (min 10 chars)
   [green]-o, --oneliner[/]                Output script as one-liner
   [green]-r, --remove-comments[/]         Remove comments from generated script
   [green]    --include-prerelease[/]      Include prerelease package versions

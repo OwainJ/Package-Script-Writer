@@ -339,7 +339,7 @@ public class CommandLineOptions
                     options.UseUnattended = true;
                     options.DatabaseType = "SQLite";
                     options.AdminEmail = "admin@example.com";
-                    options.AdminPassword = "1234567890";
+                    options.AdminPassword = "1234567890!";
                     break;
 
                 case "--database-type":

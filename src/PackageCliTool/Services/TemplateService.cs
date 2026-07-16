@@ -339,7 +339,7 @@ public class TemplateService
                             : "admin@example.com",
                         Password = !string.IsNullOrWhiteSpace(options.AdminPassword)
                             ? options.AdminPassword
-                            : "1234567890"
+                            : "1234567890!"
                     }
                 },
                 Output = new OutputConfig
@@ -419,7 +419,7 @@ public class TemplateService
                     {
                         Name = scriptModel.UserFriendlyName ?? "Administrator",
                         Email = scriptModel.UserEmail ?? "admin@example.com",
-                        Password = scriptModel.UserPassword ?? "1234567890"
+                        Password = scriptModel.UserPassword ?? "1234567890!"
                     }
                 },
                 Output = new OutputConfig

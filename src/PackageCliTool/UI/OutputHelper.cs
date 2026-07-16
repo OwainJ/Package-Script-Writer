@@ -172,7 +172,7 @@ public static class OutputHelper
                 new { name = "--dockerfile", shortName = (string?)null, type = "flag", description = "Include Dockerfile in generated script" },
                 new { name = "--docker-compose", shortName = (string?)null, type = "flag", description = "Include Docker Compose file in generated script" },
                 new { name = "--delivery-api", shortName = "-da", type = "flag", description = "Enable Content Delivery API" },
-                new { name = "--unattended-defaults", shortName = "-u", type = "flag", description = "Use unattended install with defaults (SQLite, admin@example.com, 1234567890)" },
+                new { name = "--unattended-defaults", shortName = "-u", type = "flag", description = "Use unattended install with defaults (SQLite, admin@example.com, 1234567890!)" },
                 new { name = "--database-type", shortName = (string?)null, type = "enum", required = false, description = "Database type for unattended install. Implies --unattended-defaults.", validValues = new[] { "SQLite", "LocalDb", "SQLServer", "SQLAzure", "SQLCE" }, note = "SQLServer and SQLAzure require --connection-string" },
                 new { name = "--connection-string", shortName = (string?)null, type = "string", required = false, description = "Database connection string (required for SQLServer/SQLAzure)" },
                 new { name = "--admin-name", shortName = (string?)null, type = "string", required = false, description = "Admin user friendly name for unattended install" },

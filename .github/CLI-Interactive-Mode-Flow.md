@@ -543,7 +543,7 @@ When modifying these flows, consider:
    - **Password Field**:
      - MUST be at least 10 characters
      - Input should be masked (secret/password field)
-     - Default value: "1234567890"
+     - Default value: "1234567890!"
 
    - **Solution Name**:
      - If "Create solution file" is FALSE, solution name is ignored
@@ -566,7 +566,7 @@ When modifying these flows, consider:
    - Use unattended install: true
    - Database type: SQLite
    - User email: admin@example.com
-   - User password: 1234567890
+   - User password: 1234567890!
    - User friendly name: Administrator
    - All other fields: false
 

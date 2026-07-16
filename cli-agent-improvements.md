@@ -378,7 +378,7 @@ Difference from `--dry-run`: `--validate` only checks input format, `--dry-run` 
   "databaseType": "SQLite",
   "useUnattendedInstall": true,
   "adminEmail": "admin@example.com",
-  "adminPassword": "1234567890"
+  "adminPassword": "1234567890!"
 }
 ```
 

@@ -226,7 +226,7 @@ public class CommandLineOptionsTests
         options.UseUnattended.Should().BeTrue();
         options.DatabaseType.Should().Be("SQLite");
         options.AdminEmail.Should().Be("admin@example.com"); 
-        options.AdminPassword.Should().Be("1234567890");
+        options.AdminPassword.Should().Be("1234567890!");
     }
 
     [Fact]

@@ -427,7 +427,7 @@ public class InteractiveModeWorkflow
             config.ConnectionString = "";
             config.UserFriendlyName = "Administrator";
             config.UserEmail = "admin@example.com";
-            config.UserPassword = "1234567890";
+            config.UserPassword = "1234567890!";
             config.OnelinerOutput = false;
             config.RemoveComments = false;
             config.Packages = "";
@@ -657,7 +657,7 @@ public class InteractiveModeWorkflow
             UseUnattendedInstall = true,
             DatabaseType = "SQLite",
             UserEmail = "admin@example.com",
-            UserPassword = "1234567890",
+            UserPassword = "1234567890!",
             UserFriendlyName = "Administrator",
             OnelinerOutput = false,
             RemoveComments = false
@@ -1075,7 +1075,7 @@ public class InteractiveModeWorkflow
                     config.DatabaseType = "SQLite";
                     config.UserFriendlyName = "Administrator";
                     config.UserEmail = "admin@example.com";
-                    config.UserPassword = "1234567890";
+                    config.UserPassword = "1234567890!";
                 }
                 break;
 
@@ -1121,7 +1121,7 @@ public class InteractiveModeWorkflow
                     new TextPrompt<string>("Enter [green]admin password[/] (min 10 characters):")
                         .PromptStyle("red")
                         .Secret()
-                        .DefaultValue(config.UserPassword ?? "1234567890"));
+                        .DefaultValue(config.UserPassword ?? "1234567890!"));
                 InputValidator.ValidatePassword(config.UserPassword);
                 break;
 

@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- **Default Unattended Admin Password** - Changed the default admin password used for unattended installs from `1234567890` to `1234567890!`, since Umbraco 18 requires passwords to include a special character by default
+
 ## [1.2.1] - 2026-05-01
 
 ### Added

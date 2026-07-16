@@ -135,7 +135,7 @@ public class CliModeWorkflow
                 : "admin@example.com",
             UserPassword = !string.IsNullOrWhiteSpace(options.AdminPassword)
                 ? options.AdminPassword
-                : "1234567890",
+                : "1234567890!",
             UserFriendlyName = !string.IsNullOrWhiteSpace(options.AdminName)
                 ? options.AdminName
                 : "Administrator",

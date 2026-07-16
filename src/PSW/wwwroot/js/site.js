@@ -455,7 +455,7 @@
         psw.controls.connectionString.value = "server=(local)\\SQLEXPRESS;database=myDatabase;user id=myUser;password='myPassword';TrustServerCertificate=true;";
         psw.controls.userFriendlyName.value = 'Administrator';
         psw.controls.userEmail.value = 'admin@example.com';
-        psw.controls.userPassword.value = '1234567890';
+        psw.controls.userPassword.value = '1234567890!';
         psw.controls.databaseType.value = 'SQLite';
         psw.controls.onelinerOutput.checked = false;
         psw.controls.removeComments.checked = false;

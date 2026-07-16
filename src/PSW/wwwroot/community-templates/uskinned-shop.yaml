@@ -41,7 +41,7 @@ configuration:
     admin:
       name: "Administrator"
       email: "admin@example.com"
-      password: "1234567890"
+      password: "1234567890!"
 
   output:
     oneliner: false

@@ -103,7 +103,7 @@ public class ListOptionsWorkflow
         templatePackage = "Umbraco.Templates",
         databaseType = "SQLite",
         adminEmail = "admin@example.com",
-        adminPassword = "1234567890",
+        adminPassword = "1234567890!",
         adminName = "Administrator",
         starterKit = "clean",
         createSolution = true,
@@ -150,7 +150,7 @@ public class ListOptionsWorkflow
             Console.WriteLine("templatePackage=Umbraco.Templates");
             Console.WriteLine("databaseType=SQLite");
             Console.WriteLine("adminEmail=admin@example.com");
-            Console.WriteLine("adminPassword=1234567890");
+            Console.WriteLine("adminPassword=1234567890!");
             Console.WriteLine("adminName=Administrator");
             Console.WriteLine("starterKit=clean");
             Console.WriteLine("createSolution=true");
@@ -172,7 +172,7 @@ public class ListOptionsWorkflow
         table.AddRow("--template-package", "Umbraco.Templates");
         table.AddRow("--database-type", "SQLite");
         table.AddRow("--admin-email", "admin@example.com");
-        table.AddRow("--admin-password", "1234567890");
+        table.AddRow("--admin-password", "1234567890!");
         table.AddRow("--admin-name", "Administrator");
         table.AddRow("--starter-kit", "clean");
 

@@ -188,7 +188,7 @@ public static class InteractivePrompts
                 new TextPrompt<string>("Enter [green]admin password[/] (min 10 characters):")
                     .PromptStyle("red")
                     .Secret()
-                    .DefaultValue(existingModel?.UserPassword ?? "1234567890"));
+                    .DefaultValue(existingModel?.UserPassword ?? "1234567890!"));
         }
 
         // Output Format Options
